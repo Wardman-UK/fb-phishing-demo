@@ -14,4 +14,4 @@ The login button sumbits the form data to login.php which itself writes to a fil
 
 ## License
 
-[The Unlicense](LICENSE)
+[The Unlicense](UNLICENSE)
