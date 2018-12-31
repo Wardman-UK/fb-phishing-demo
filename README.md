@@ -1,2 +1,3 @@
-# phishing-web-demo
-A demo of a simple site that attempts to steal your Office 365 username and password.
+# Office 365 Phishing Example
+
+A demo website to demo with MFA is a nessessary.
